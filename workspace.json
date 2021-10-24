@@ -1,0 +1,928 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "revision" : 0,
+  "lastModifiedDate" : "2021-10-24T20:27:13Z",
+  "lastModifiedAgent" : "structurizr-web/2544/diagram",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgY3VzdG9tZXIgPSBwZXJzb24gIkNsaWVudGUgZG8gRWNvbW1lcmNlIgogICAgICAgIGVjb21tZXJjZVN5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJQbGF0YWZvcm1hIGRlIEVjb21tZXJjZSIgewogICAgICAgICAga2Fma2EgPSBjb250YWluZXIgIkthZmthIiAiRXZlbnQgQnJva2VyIgoKICAgICAgICAgIG9yZGVyUmVjZWl2ZXIgPSBjb250YWluZXIgIk9yZGVyIFJlY2VpdmVyIiAiUG9udG8gZGUgZW50cmFkYSBwYXJhIHJlYWxpemHDp8OjbyBkZSBwZWRpZG9zLiBSZWNlYmUgb3MgcGVkaWRvcyBlIGluaWNpYSBhIGNhZGVpYSBkZSBldmVudG9zIGRvIGZsdXhvLiIgIkphdmEgZSBTcHJpbmcgQm9vdCIgewogICAgICAgICAgICBlY29tbWVyY2VPcmRlckNvbnRyb2xsZXIgPSBjb21wb25lbnQgIkVjb21tZXJjZU9yZGVyQ29udHJvbGxlciIKICAgICAgICAgICAgb3JkZXJSZWNlaXZlckthZmthVGVtcGxhdGUgPSBjb21wb25lbnQgIkthZmthVGVtcGxhdGUiCiAgICAgICAgICAgIGVjb21tZXJjZU9yZGVyUmVwb3NpdG9yeSA9IGNvbXBvbmVudCAiRWNvbW1lcmNlT3JkZXJSZXBvc2l0b3J5IgogICAgICAgICAgfQogICAgICAgICAgb3JkZXJSZWNlaXZlckRhdGFCYXNlID0gY29udGFpbmVyICJPcmRlciBSZWNlaXZlciBEYXRhIEJhc2UiICJBcm1hemVuYSBvcyBkYWRvcyBkbyBwZWRpZG8gcmVjZWJpZG8iICJQb3N0Z3JlU1FMIgoKICAgICAgICAgIG9yZGVyUHJvY2Vzc29yID0gY29udGFpbmVyICJPcmRlciBQcm9jZXNzb3IiICJFc2N1dGEgZXZlbnRvcyBkdXJhbnRlIG8gcHJvY2Vzc2FtZW50byBkb3MgcGVkaWRvcyBhcm1hemVuYW5kbyBhcyB0cmFuc2nDp8O1ZXMgZW50cmUgYXMgZXRhcGFzLiIgIkphdmEgZSBTcHJpbmcgQm9vdCIgewogICAgICAgICAgICBuZXdPcmRlckxpc3RlbmVyID0gY29tcG9uZW50ICJOZXdPcmRlckxpc3RlbmVyIgogICAgICAgICAgICBlY29tbWVyY2VPcmRlclByb2Nlc3NvciA9IGNvbXBvbmVudCAiRWNvbW1lcmNlT3JkZXJQcm9jZXNzb3IiCiAgICAgICAgICAgIG9yZGVyUHJvY2Vzc29yS2Fma2FUZW1wbGF0ZSA9IGNvbXBvbmVudCAiS2Fma2FUZW1wbGF0ZSIKICAgICAgICAgICAgZWNvbW1lcmNlT3JkZXJSZWNvcmRSZXBvc2l0b3J5ID0gY29tcG9uZW50ICJFY29tbWVyY2VPcmRlclJlY29yZFJlcG9zaXRvcnkiCiAgICAgICAgICB9CiAgICAgICAgICBvcmRlclByb2Nlc3NvckRhdGFCYXNlID0gY29udGFpbmVyICJPcmRlciBQcm9jZXNzb3IgRGF0YSBCYXNlIiAiQXJtYXplbmEgaW5mb3JtYcOnw7VlcyBzb2JyZSBhcyB0cmFuc2nDp8O1ZXMgcXVlIG8gcGVkaWRvIHBhc3NhIiAiUG9zdGdyZVNRTCIKCiAgICAgICAgICBwYXltZW50cyA9IGNvbnRhaW5lciAiUGF5bWVudHMiICJQcm9jZXNzYSBvcyBwYWdhbWVudG9zIGRvcyBwZWRpZG9zLiIgIkphdmEgZSBTcHJpbmcgQm9vdCIgewogICAgICAgICAgICBwYXltZW50UHJvY2Vzc29yID0gY29tcG9uZW50ICJQYXltZW50UHJvY2Vzc29yIgogICAgICAgICAgICBwYXltZW50S2Fma2FUZW1wbGF0ZSA9IGNvbXBvbmVudCAiS2Fma2FUZW1wbGF0ZSIKICAgICAgICAgICAgcGF5bWVudFJlcG9zaXRvcnkgPSBjb21wb25lbnQgIlBheW1lbnRSZXBvc2l0b3J5IgogICAgICAgICAgfQogICAgICAgICAgcGF5bWVudHNEYXRhQmFzZSA9IGNvbnRhaW5lciAiUGF5bWVudHMgRGF0YSBCYXNlIiAiQXJtYXplbmEgaW5mb3JtYcOnw7VlcyBzb2JyZSBvIHBhZ2FtZW50byBkZSBwZWRpZG9zIiAiUG9zdGdyZVNRTCIKCiAgICAgICAgICBzdG9jayA9IGNvbnRhaW5lciAiU3RvY2siICJHZXJlbmNpYSBhIHNlcGFyYcOnw6NvIGRvcyBpdGVucyBkbyBwZWRpZG8gbm8gZXN0b3F1ZS4iICJKYXZhIGUgU3ByaW5nIEJvb3QiIHsKICAgICAgICAgICAgc3RvY2tQcm9jZXNzb3IgPSBjb21wb25lbnQgIlN0b2NrUHJvY2Vzc29yIgogICAgICAgICAgICBzdG9ja0thZmthVGVtcGxhdGUgPSBjb21wb25lbnQgIkthZmthVGVtcGxhdGUiCiAgICAgICAgICAgIHN0b2NrUmVwb3NpdG9yeSA9IGNvbXBvbmVudCAiU3RvY2tSZXBvc2l0b3J5IgogICAgICAgICAgfQogICAgICAgICAgc3RvY2tEYXRhQmFzZSA9IGNvbnRhaW5lciAiU3RvY2sgRGF0YSBCYXNlIiAiQXJtYXplbmEgaW5mb3JtYcOnw7VlcyBzb2JyZSBvIGdlcmVuY2lhbWVudG8gZG8gZXN0b3F1ZSIgIlBvc3RncmVTUUwiCgogICAgICAgICAgbG9naXN0aWMgPSBjb250YWluZXIgIkxvZ2lzdGljIiAiT3JnYW5pemEgYSBsb2fDrXN0aWNhIGRlIGVudHJlZ2EgZG9zIGl0ZW5zIGRvIHBlZGlkby4iICJKYXZhIGUgU3ByaW5nIEJvb3QiIHsKICAgICAgICAgICAgbG9naXN0aWNQcm9jZXNzb3IgPSBjb21wb25lbnQgIkxvZ2lzdGljUHJvY2Vzc29yIgogICAgICAgICAgICBsb2dpc3RpY0thZmthVGVtcGxhdGUgPSBjb21wb25lbnQgIkthZmthVGVtcGxhdGUiCiAgICAgICAgICAgIGxvZ2lzdGljUmVwb3NpdG9yeSA9IGNvbXBvbmVudCAiTG9naXN0aWNSZXBvc2l0b3J5IgogICAgICAgICAgfQogICAgICAgICAgbG9naXN0aWNEYXRhQmFzZSA9IGNvbnRhaW5lciAiTG9naXN0aWMgRGF0YSBCYXNlIiAiQXJtYXplbmEgaW5mb3JtYcOnw7VlcyBzb2JyZSBhIGxvZ8Otc3RpY2EiICJQb3N0Z3JlU1FMIgogICAgICAgICAgCiAgICAgICAgICBwcm9kdWN0Vmlld2VyID0gY29udGFpbmVyICJQcm9kdWN0IFZpZXdlciIgIkV4cMO1ZSBkZXRhbGhlcyBkb3MgcHJvZHV0b3MgcGFyYSB2aXN1YWxpemHDp8Ojby4iICJKYXZhIGUgU3ByaW5nIEJvb3QiIHsKICAgICAgICAgICAgcHJvZHVjdENvbnRyb2xsZXIgPSBjb21wb25lbnQgIlByb2R1Y3RDb250cm9sbGVyIgogICAgICAgICAgICBwcm9kdWN0UmVwb3NpdG9yeSA9IGNvbXBvbmVudCAiUHJvZHVjdFJlcG9zaXRvcnkiCiAgICAgICAgICB9CiAgICAgICAgICBwcm9kdWN0Vmlld2VyRGF0YUJhc2UgPSBjb250YWluZXIgIlByb2R1Y3QgVmlld2VyIERhdGEgQmFzZSIgIkFybWF6ZW5hIGluZm9ybWHDp8O1ZXMgc29icmUgb3MgcHJvZHV0b3MiICJQb3N0Z3JlU1FMIgogICAgICAgIH0KCiAgICAgICAgIyByZWxhdGlvbnNoaXBzIGJldHdlZW4gcGVvcGxlIGFuZCBzb2Z0d2FyZSBzeXN0ZW1zCiAgICAgICAgY3VzdG9tZXIgLT4gZWNvbW1lcmNlU3lzdGVtICJDbGllbnRlIGRhIFBsYXRhZm9ybWEgZGUgRWNvbW1lcmNlLiBWaXN1YWxpemEgcHJvZHV0b3MgZSByZWFsaXphIHBlZGlkb3MuIgoKICAgICAgICAjIHJlbGF0aW9uc2hpcHMgdG8vZnJvbSBjb250YWluZXJzCiAgICAgICAgY3VzdG9tZXIgLT4gb3JkZXJSZWNlaXZlciAiUmVhbGl6YSB1bSBwZWRpZG8iICJIVFRQUyIKICAgICAgICBjdXN0b21lciAtPiBwcm9kdWN0Vmlld2VyICJWaXN1YWxpemEgaXRlbnMgZGlzcG9uw612ZWlzIiAiSFRUUFMiCiAgICAgICAgCiAgICAgICAgb3JkZXJSZWNlaXZlciAtPiBvcmRlclJlY2VpdmVyRGF0YUJhc2UgIkFybWF6ZW5hIG9zIGRhZG9zIGRvIHBlZGlkbyIKICAgICAgICAKICAgICAgICBvcmRlclByb2Nlc3NvciAtPiBvcmRlclJlY2VpdmVyICJFc2N1dGEgbyBldmVudG8gbmV3X2Vjb21tZXJjZV9vcmRlciIKICAgICAgICBvcmRlclByb2Nlc3NvciAtPiBvcmRlclByb2Nlc3NvckRhdGFCYXNlICJBcm1hemVuYSBhIHRyYW5zacOnw6NvIGRlIGVzdGFkb3MgZG8gcGVkaWRvIgoKICAgICAgICBwYXltZW50cyAtPiBvcmRlclByb2Nlc3NvciAiRXNjdXRhIG8gZXZlbnRvIHBheW1lbnRfcmVjZWl2ZWQiCiAgICAgICAgcGF5bWVudHMgLT4gcGF5bWVudHNEYXRhQmFzZSAiQXJtYXplbmEgaW5mb3JtYcOnw7VlcyBzb2JyZSBvcyBwYWdhbWVudG9zIgoKICAgICAgICBzdG9jayAtPiBwYXltZW50cyAiRXNjdXRhIG8gZXZlbnRvIHBheW1lbnRfcHJvY2Vzc2VkIgogICAgICAgIHN0b2NrIC0+IHN0b2NrRGF0YUJhc2UgIkFybWF6ZW5hIG5mb3JtYcOnw7VlcyBzb2JyZSBhIHNlcGFyYcOnw6NvIGRvcyBpdGVucyBubyBlc3RvcXVlIgoKICAgICAgICBsb2dpc3RpYyAtPiBzdG9jayAiRXNjdXRhIG8gZXZlbnRvIHN0b2NrX3NlcGFyYXRlZCIKICAgICAgICBsb2dpc3RpYyAtPiBsb2dpc3RpY0RhdGFCYXNlICJBcm1hemVuYSBpbmZvcm1hw6fDtWVzIHNvYnJlIGEgb3BlcmHDp8OjbyBkZSBsb2fDrXN0aWNhIGRlIGVudHJlZ2EiCgogICAgICAgIHByb2R1Y3RWaWV3ZXIgLT4gcHJvZHVjdFZpZXdlckRhdGFCYXNlICJBcm1hemVuYSBpbmZvcm1hw6fDtWVzIHNvYnJlIG9zIHByb2R1dG9zIgoKICAgICAgICAgIyByZWxhdGlvbnNoaXBzIHRvL2Zyb20gY29tcG9uZW50cwogICAgICAgIGN1c3RvbWVyIC0+IGVjb21tZXJjZU9yZGVyQ29udHJvbGxlciAiUmVjZWJlIGEgcmVxdWlzacOnw6NvIHBhcmEgY3JpYcOnw6NvIGRvIHBlZGlkbyIgIkpTT04vSFRUUFMiCiAgICAgICAgZWNvbW1lcmNlT3JkZXJDb250cm9sbGVyIC0+IG9yZGVyUmVjZWl2ZXJLYWZrYVRlbXBsYXRlICJTb2xpY2l0YSBlbWlzc8OjbyBkbyBldmVudG8iCiAgICAgICAgb3JkZXJSZWNlaXZlckthZmthVGVtcGxhdGUgLT4ga2Fma2EgIkVtaXRlIG8gZXZlbnRvIG5ld19lY29tbWVyY2Vfb3JkZXIiCiAgICAgICAgZWNvbW1lcmNlT3JkZXJDb250cm9sbGVyIC0+IGVjb21tZXJjZU9yZGVyUmVwb3NpdG9yeSAiU29saWNpdGEgcGVyc2lzdMOqbmNpYSBkb3MgZGFkb3MiCiAgICAgICAgZWNvbW1lcmNlT3JkZXJSZXBvc2l0b3J5IC0+IG9yZGVyUmVjZWl2ZXJEYXRhQmFzZSAiUGVyc2lzdGUgb3MgZGFkb3MgZG8gcGVkaWRvIgoKICAgICAgICBuZXdPcmRlckxpc3RlbmVyIC0+IGthZmthICJFc2N1dGEgbyBldmVudG8gbmV3X2Vjb21tZXJjZV9vcmRlciIKICAgICAgICBuZXdPcmRlckxpc3RlbmVyIC0+IGVjb21tZXJjZU9yZGVyUHJvY2Vzc29yICJJbmljaWEgbyBwcm9jZXNzYW1lbnRvIGRvIGV2ZW50byIKICAgICAgICBlY29tbWVyY2VPcmRlclByb2Nlc3NvciAtPiBlY29tbWVyY2VPcmRlclJlY29yZFJlcG9zaXRvcnkgIlNvbGljaXRhIGEgYXR1YWxpemHDp8OjbyBkbyBzdGF0dXMgZG8gcGVkaWRvIgogICAgICAgIGVjb21tZXJjZU9yZGVyUHJvY2Vzc29yIC0+IG9yZGVyUHJvY2Vzc29yS2Fma2FUZW1wbGF0ZSAiU29saWNpdGEgZW1pc3PDo28gZG8gZXZlbnRvIgogICAgICAgIG9yZGVyUHJvY2Vzc29yS2Fma2FUZW1wbGF0ZSAtPiBrYWZrYSAiRW1pdGUgbyBldmVudG8gcGF5bWVudF9yZWNlaXZlZCIKICAgICAgICBlY29tbWVyY2VPcmRlclJlY29yZFJlcG9zaXRvcnkgLT4gb3JkZXJQcm9jZXNzb3JEYXRhQmFzZSAiUGVyc2lzdGUgdW0gcmVnaXN0cm8gY29tIG8gZXN0YWRvIGF0dWFsaXphZG8gZG8gcGVkaWRvIgoKICAgICAgICBwYXltZW50UHJvY2Vzc29yIC0+IGthZmthICJFc2N1dGEgbyBldmVudG8gcGF5bWVudF9yZWNlaXZlZCIKICAgICAgICBwYXltZW50UHJvY2Vzc29yIC0+IHBheW1lbnRSZXBvc2l0b3J5ICJTb2xpY2l0YSBhIGF0dWFsaXphw6fDo28gZG9zIGRhZG9zIGRvIHBhZ2FtZW50byIKICAgICAgICBwYXltZW50UmVwb3NpdG9yeSAtPiBwYXltZW50c0RhdGFCYXNlICJQZXJzaXN0ZSBvcyBkYWRvcyBkbyBwYWdhbWVudG8iCiAgICAgICAgcGF5bWVudFByb2Nlc3NvciAtPiBwYXltZW50S2Fma2FUZW1wbGF0ZSAiU29saWNpdGEgZW1pc3PDo28gZG8gZXZlbnRvIgogICAgICAgIHBheW1lbnRLYWZrYVRlbXBsYXRlIC0+IGthZmthICJFbWl0ZSBvIGV2ZW50byBwYXltZW50X3Byb2Nlc3NlZCIKCiAgICAgICAgc3RvY2tQcm9jZXNzb3IgLT4ga2Fma2EgIkVzY3V0YSBvIGV2ZW50byBwYXltZW50X3Byb2Nlc3NlZCIKICAgICAgICBzdG9ja1Byb2Nlc3NvciAtPiBzdG9ja1JlcG9zaXRvcnkgIlNvbGljaXRhIGEgYXR1YWxpemHDp8OjbyBkb3MgZGFkb3MgZG8gZXN0b3F1ZSIKICAgICAgICBzdG9ja1JlcG9zaXRvcnkgLT4gc3RvY2tEYXRhQmFzZSAiUGVyc2lzdGUgb3MgZGFkb3Mgc29icmUgYSBzZXBhcmHDp8OjbyBubyBlc3RvcXVlIgogICAgICAgIHN0b2NrUHJvY2Vzc29yIC0+IHN0b2NrS2Fma2FUZW1wbGF0ZSAiU29saWNpdGEgZW1pc3PDo28gZG8gZXZlbnRvIgogICAgICAgIHN0b2NrS2Fma2FUZW1wbGF0ZSAtPiBrYWZrYSAiRW1pdGUgbyBldmVudG8gc3RvY2tfc2VwYXJhdGVkIgoKICAgICAgICBsb2dpc3RpY1Byb2Nlc3NvciAtPiBrYWZrYSAiRXNjdXRhIG8gZXZlbnRvIHN0b2NrX3NlcGFyYXRlZCIKICAgICAgICBsb2dpc3RpY1Byb2Nlc3NvciAtPiBsb2dpc3RpY1JlcG9zaXRvcnkgIlNvbGljaXRhIGEgYXR1YWxpemHDp8OjbyBkb3MgZGFkb3MgZGEgZW50cmVnYSIKICAgICAgICBsb2dpc3RpY1JlcG9zaXRvcnkgLT4gbG9naXN0aWNEYXRhQmFzZSAiUGVyc2lzdGUgb3MgZGFkb3Mgc29icmUgYSBlbnRyZWdhIgogICAgICAgIGxvZ2lzdGljUHJvY2Vzc29yIC0+IGxvZ2lzdGljS2Fma2FUZW1wbGF0ZSAiU29saWNpdGEgZW1pc3PDo28gZG8gZXZlbnRvIgogICAgICAgIGxvZ2lzdGljS2Fma2FUZW1wbGF0ZSAtPiBrYWZrYSAiRW1pdGUgbyBldmVudG8gcmVhZHlfdG9fZGVsaXZlcnkiCgogICAgICAgIGN1c3RvbWVyIC0+IHByb2R1Y3RDb250cm9sbGVyICJSZWNlYmUgYSByZXF1aXNpw6fDo28gcGFyYSB2aXN1YWxpemHDp8OjbyBkZSB1bSBwcm9kdXRvIiAiSlNPTi9IVFRQUyIKICAgICAgICBwcm9kdWN0Q29udHJvbGxlciAtPiBwcm9kdWN0UmVwb3NpdG9yeSAiU29saWNpdGEgYXMgaW5mb3JtYcOnw7VlcyBzb2JyZSBvIHByb2R1dG8iCiAgICAgICAgcHJvZHVjdFJlcG9zaXRvcnkgLT4gcHJvZHVjdFZpZXdlckRhdGFCYXNlICJSZWN1cGVyYSBhcyBpbmZvcm1hw6fDtWVzIGRvIGJhbmNvIGRlIGRhZG9zIgogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICB0aGVtZSBkZWZhdWx0CiAgICAgICAgCiAgICAgICAgc3lzdGVtQ29udGV4dCBlY29tbWVyY2VTeXN0ZW0gewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciBlY29tbWVyY2VTeXN0ZW0gIkNvbnRhaW5lcnMiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGV4Y2x1ZGUga2Fma2EKICAgICAgICAgICAgYW5pbWF0aW9uIHsKICAgICAgICAgICAgICAgIGN1c3RvbWVyCiAgICAgICAgICAgICAgICBvcmRlclJlY2VpdmVyCiAgICAgICAgICAgICAgICBwcm9kdWN0Vmlld2VyCiAgICAgICAgICAgICAgICBvcmRlclByb2Nlc3NvcgogICAgICAgICAgICAgICAgcGF5bWVudHMKICAgICAgICAgICAgICAgIHN0b2NrCiAgICAgICAgICAgICAgICBsb2dpc3RpYwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgb3JkZXJSZWNlaXZlciAiQ29tcG9uZW50X09yZGVyX1JlY2VpdmVyIiB7CiAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgIGNvbXBvbmVudCBvcmRlclByb2Nlc3NvciAiQ29tcG9uZW50X09yZGVyX1Byb2Nlc3NvciIgewogICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgcGF5bWVudHMgIkNvbXBvbmVudF9QYXltZW50cyIgewogICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgc3RvY2sgIkNvbXBvbmVudF9TdG9jayIgewogICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgbG9naXN0aWMgIkNvbXBvbmVudF9Mb2dpc3RpYyIgewogICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgcHJvZHVjdFZpZXdlciAiQ29tcG9uZW50X1Byb2R1Y3RfVmlld2VyIiB7CiAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CiAgICB9CiAgICAKfQo="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "name" : "Cliente do Ecommerce",
+      "relationships" : [ {
+        "id" : "36",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "30",
+        "description" : "Visualiza itens disponíveis",
+        "technology" : "HTTPS"
+      }, {
+        "id" : "47",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "5",
+        "description" : "Recebe a requisição para criação do pedido",
+        "technology" : "JSON/HTTPS"
+      }, {
+        "id" : "35",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "4",
+        "description" : "Realiza um pedido",
+        "technology" : "HTTPS"
+      }, {
+        "id" : "78",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "31",
+        "description" : "Recebe a requisição para visualização de um produto",
+        "technology" : "JSON/HTTPS"
+      }, {
+        "id" : "34",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "2",
+        "description" : "Cliente da Plataforma de Ecommerce. Visualiza produtos e realiza pedidos."
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "2",
+      "tags" : "Element,Software System",
+      "name" : "Plataforma de Ecommerce",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "20",
+        "tags" : "Element,Container",
+        "name" : "Stock",
+        "description" : "Gerencia a separação dos itens do pedido no estoque.",
+        "relationships" : [ {
+          "id" : "42",
+          "tags" : "Relationship",
+          "sourceId" : "20",
+          "destinationId" : "15",
+          "description" : "Escuta o evento payment_processed"
+        }, {
+          "id" : "67",
+          "tags" : "Relationship",
+          "sourceId" : "20",
+          "destinationId" : "3",
+          "description" : "Escuta o evento payment_processed"
+        }, {
+          "id" : "43",
+          "tags" : "Relationship",
+          "sourceId" : "20",
+          "destinationId" : "24",
+          "description" : "Armazena nformações sobre a separação dos itens no estoque"
+        } ],
+        "technology" : "Java e Spring Boot",
+        "components" : [ {
+          "id" : "22",
+          "tags" : "Element,Component",
+          "name" : "KafkaTemplate",
+          "relationships" : [ {
+            "id" : "71",
+            "tags" : "Relationship",
+            "sourceId" : "22",
+            "destinationId" : "3",
+            "description" : "Emite o evento stock_separated"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "23",
+          "tags" : "Element,Component",
+          "name" : "StockRepository",
+          "relationships" : [ {
+            "id" : "69",
+            "tags" : "Relationship",
+            "sourceId" : "23",
+            "destinationId" : "24",
+            "description" : "Persiste os dados sobre a separação no estoque"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "21",
+          "tags" : "Element,Component",
+          "name" : "StockProcessor",
+          "relationships" : [ {
+            "id" : "70",
+            "tags" : "Relationship",
+            "sourceId" : "21",
+            "destinationId" : "22",
+            "description" : "Solicita emissão do evento"
+          }, {
+            "id" : "66",
+            "tags" : "Relationship",
+            "sourceId" : "21",
+            "destinationId" : "3",
+            "description" : "Escuta o evento payment_processed"
+          }, {
+            "id" : "68",
+            "tags" : "Relationship",
+            "sourceId" : "21",
+            "destinationId" : "23",
+            "description" : "Solicita a atualização dos dados do estoque"
+          } ],
+          "size" : 0
+        } ]
+      }, {
+        "id" : "14",
+        "tags" : "Element,Container",
+        "name" : "Order Processor Data Base",
+        "description" : "Armazena informações sobre as transições que o pedido passa",
+        "technology" : "PostgreSQL"
+      }, {
+        "id" : "24",
+        "tags" : "Element,Container",
+        "name" : "Stock Data Base",
+        "description" : "Armazena informações sobre o gerenciamento do estoque",
+        "technology" : "PostgreSQL"
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container",
+        "name" : "Order Receiver Data Base",
+        "description" : "Armazena os dados do pedido recebido",
+        "technology" : "PostgreSQL"
+      }, {
+        "id" : "4",
+        "tags" : "Element,Container",
+        "name" : "Order Receiver",
+        "description" : "Ponto de entrada para realização de pedidos. Recebe os pedidos e inicia a cadeia de eventos do fluxo.",
+        "relationships" : [ {
+          "id" : "50",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "3",
+          "description" : "Emite o evento new_ecommerce_order"
+        }, {
+          "id" : "37",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "8",
+          "description" : "Armazena os dados do pedido"
+        } ],
+        "technology" : "Java e Spring Boot",
+        "components" : [ {
+          "id" : "5",
+          "tags" : "Element,Component",
+          "name" : "EcommerceOrderController",
+          "relationships" : [ {
+            "id" : "51",
+            "tags" : "Relationship",
+            "sourceId" : "5",
+            "destinationId" : "7",
+            "description" : "Solicita persistência dos dados"
+          }, {
+            "id" : "48",
+            "tags" : "Relationship",
+            "sourceId" : "5",
+            "destinationId" : "6",
+            "description" : "Solicita emissão do evento"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "7",
+          "tags" : "Element,Component",
+          "name" : "EcommerceOrderRepository",
+          "relationships" : [ {
+            "id" : "52",
+            "tags" : "Relationship",
+            "sourceId" : "7",
+            "destinationId" : "8",
+            "description" : "Persiste os dados do pedido"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "6",
+          "tags" : "Element,Component",
+          "name" : "KafkaTemplate",
+          "relationships" : [ {
+            "id" : "49",
+            "tags" : "Relationship",
+            "sourceId" : "6",
+            "destinationId" : "3",
+            "description" : "Emite o evento new_ecommerce_order"
+          } ],
+          "size" : 0
+        } ]
+      }, {
+        "id" : "30",
+        "tags" : "Element,Container",
+        "name" : "Product Viewer",
+        "description" : "Expõe detalhes dos produtos para visualização.",
+        "relationships" : [ {
+          "id" : "46",
+          "tags" : "Relationship",
+          "sourceId" : "30",
+          "destinationId" : "33",
+          "description" : "Armazena informações sobre os produtos"
+        } ],
+        "technology" : "Java e Spring Boot",
+        "components" : [ {
+          "id" : "32",
+          "tags" : "Element,Component",
+          "name" : "ProductRepository",
+          "relationships" : [ {
+            "id" : "80",
+            "tags" : "Relationship",
+            "sourceId" : "32",
+            "destinationId" : "33",
+            "description" : "Recupera as informações do banco de dados"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "31",
+          "tags" : "Element,Component",
+          "name" : "ProductController",
+          "relationships" : [ {
+            "id" : "79",
+            "tags" : "Relationship",
+            "sourceId" : "31",
+            "destinationId" : "32",
+            "description" : "Solicita as informações sobre o produto"
+          } ],
+          "size" : 0
+        } ]
+      }, {
+        "id" : "9",
+        "tags" : "Element,Container",
+        "name" : "Order Processor",
+        "description" : "Escuta eventos durante o processamento dos pedidos armazenando as transições entre as etapas.",
+        "relationships" : [ {
+          "id" : "39",
+          "tags" : "Relationship",
+          "sourceId" : "9",
+          "destinationId" : "14",
+          "description" : "Armazena a transição de estados do pedido"
+        }, {
+          "id" : "38",
+          "tags" : "Relationship",
+          "sourceId" : "9",
+          "destinationId" : "4",
+          "description" : "Escuta o evento new_ecommerce_order"
+        }, {
+          "id" : "54",
+          "tags" : "Relationship",
+          "sourceId" : "9",
+          "destinationId" : "3",
+          "description" : "Escuta o evento new_ecommerce_order"
+        } ],
+        "technology" : "Java e Spring Boot",
+        "components" : [ {
+          "id" : "13",
+          "tags" : "Element,Component",
+          "name" : "EcommerceOrderRecordRepository",
+          "relationships" : [ {
+            "id" : "59",
+            "tags" : "Relationship",
+            "sourceId" : "13",
+            "destinationId" : "14",
+            "description" : "Persiste um registro com o estado atualizado do pedido"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "10",
+          "tags" : "Element,Component",
+          "name" : "NewOrderListener",
+          "relationships" : [ {
+            "id" : "53",
+            "tags" : "Relationship",
+            "sourceId" : "10",
+            "destinationId" : "3",
+            "description" : "Escuta o evento new_ecommerce_order"
+          }, {
+            "id" : "55",
+            "tags" : "Relationship",
+            "sourceId" : "10",
+            "destinationId" : "11",
+            "description" : "Inicia o processamento do evento"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "12",
+          "tags" : "Element,Component",
+          "name" : "KafkaTemplate",
+          "relationships" : [ {
+            "id" : "58",
+            "tags" : "Relationship",
+            "sourceId" : "12",
+            "destinationId" : "3",
+            "description" : "Emite o evento payment_received"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "11",
+          "tags" : "Element,Component",
+          "name" : "EcommerceOrderProcessor",
+          "relationships" : [ {
+            "id" : "56",
+            "tags" : "Relationship",
+            "sourceId" : "11",
+            "destinationId" : "13",
+            "description" : "Solicita a atualização do status do pedido"
+          }, {
+            "id" : "57",
+            "tags" : "Relationship",
+            "sourceId" : "11",
+            "destinationId" : "12",
+            "description" : "Solicita emissão do evento"
+          } ],
+          "size" : 0
+        } ]
+      }, {
+        "id" : "29",
+        "tags" : "Element,Container",
+        "name" : "Logistic Data Base",
+        "description" : "Armazena informações sobre a logística",
+        "technology" : "PostgreSQL"
+      }, {
+        "id" : "19",
+        "tags" : "Element,Container",
+        "name" : "Payments Data Base",
+        "description" : "Armazena informações sobre o pagamento de pedidos",
+        "technology" : "PostgreSQL"
+      }, {
+        "id" : "15",
+        "tags" : "Element,Container",
+        "name" : "Payments",
+        "description" : "Processa os pagamentos dos pedidos.",
+        "relationships" : [ {
+          "id" : "40",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "9",
+          "description" : "Escuta o evento payment_received"
+        }, {
+          "id" : "41",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "19",
+          "description" : "Armazena informações sobre os pagamentos"
+        }, {
+          "id" : "61",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "3",
+          "description" : "Escuta o evento payment_received"
+        } ],
+        "technology" : "Java e Spring Boot",
+        "components" : [ {
+          "id" : "16",
+          "tags" : "Element,Component",
+          "name" : "PaymentProcessor",
+          "relationships" : [ {
+            "id" : "60",
+            "tags" : "Relationship",
+            "sourceId" : "16",
+            "destinationId" : "3",
+            "description" : "Escuta o evento payment_received"
+          }, {
+            "id" : "62",
+            "tags" : "Relationship",
+            "sourceId" : "16",
+            "destinationId" : "18",
+            "description" : "Solicita a atualização dos dados do pagamento"
+          }, {
+            "id" : "64",
+            "tags" : "Relationship",
+            "sourceId" : "16",
+            "destinationId" : "17",
+            "description" : "Solicita emissão do evento"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "18",
+          "tags" : "Element,Component",
+          "name" : "PaymentRepository",
+          "relationships" : [ {
+            "id" : "63",
+            "tags" : "Relationship",
+            "sourceId" : "18",
+            "destinationId" : "19",
+            "description" : "Persiste os dados do pagamento"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "17",
+          "tags" : "Element,Component",
+          "name" : "KafkaTemplate",
+          "relationships" : [ {
+            "id" : "65",
+            "tags" : "Relationship",
+            "sourceId" : "17",
+            "destinationId" : "3",
+            "description" : "Emite o evento payment_processed"
+          } ],
+          "size" : 0
+        } ]
+      }, {
+        "id" : "3",
+        "tags" : "Element,Container",
+        "name" : "Kafka",
+        "description" : "Event Broker"
+      }, {
+        "id" : "25",
+        "tags" : "Element,Container",
+        "name" : "Logistic",
+        "description" : "Organiza a logística de entrega dos itens do pedido.",
+        "relationships" : [ {
+          "id" : "44",
+          "tags" : "Relationship",
+          "sourceId" : "25",
+          "destinationId" : "20",
+          "description" : "Escuta o evento stock_separated"
+        }, {
+          "id" : "45",
+          "tags" : "Relationship",
+          "sourceId" : "25",
+          "destinationId" : "29",
+          "description" : "Armazena informações sobre a operação de logística de entrega"
+        }, {
+          "id" : "73",
+          "tags" : "Relationship",
+          "sourceId" : "25",
+          "destinationId" : "3",
+          "description" : "Escuta o evento stock_separated"
+        } ],
+        "technology" : "Java e Spring Boot",
+        "components" : [ {
+          "id" : "26",
+          "tags" : "Element,Component",
+          "name" : "LogisticProcessor",
+          "relationships" : [ {
+            "id" : "74",
+            "tags" : "Relationship",
+            "sourceId" : "26",
+            "destinationId" : "28",
+            "description" : "Solicita a atualização dos dados da entrega"
+          }, {
+            "id" : "76",
+            "tags" : "Relationship",
+            "sourceId" : "26",
+            "destinationId" : "27",
+            "description" : "Solicita emissão do evento"
+          }, {
+            "id" : "72",
+            "tags" : "Relationship",
+            "sourceId" : "26",
+            "destinationId" : "3",
+            "description" : "Escuta o evento stock_separated"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "27",
+          "tags" : "Element,Component",
+          "name" : "KafkaTemplate",
+          "relationships" : [ {
+            "id" : "77",
+            "tags" : "Relationship",
+            "sourceId" : "27",
+            "destinationId" : "3",
+            "description" : "Emite o evento ready_to_delivery"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "28",
+          "tags" : "Element,Component",
+          "name" : "LogisticRepository",
+          "relationships" : [ {
+            "id" : "75",
+            "tags" : "Relationship",
+            "sourceId" : "28",
+            "destinationId" : "29",
+            "description" : "Persiste os dados sobre a entrega"
+          } ],
+          "size" : 0
+        } ]
+      }, {
+        "id" : "33",
+        "tags" : "Element,Container",
+        "name" : "Product Viewer Data Base",
+        "description" : "Armazena informações sobre os produtos",
+        "technology" : "PostgreSQL"
+      } ]
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "softwareSystemId" : "2",
+      "key" : "PlataformadeEcommerce-SystemContext",
+      "paperSize" : "A6_Portrait",
+      "dimensions" : {
+        "width" : 866,
+        "height" : 1416
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 233,
+        "y" : 208
+      }, {
+        "id" : "2",
+        "x" : 208,
+        "y" : 908
+      } ],
+      "relationships" : [ {
+        "id" : "34"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "softwareSystemId" : "2",
+      "key" : "Containers",
+      "paperSize" : "A3_Landscape",
+      "dimensions" : {
+        "width" : 4961,
+        "height" : 3508
+      },
+      "animations" : [ {
+        "order" : 1,
+        "elements" : [ "1" ]
+      }, {
+        "order" : 2,
+        "elements" : [ "4" ],
+        "relationships" : [ "35" ]
+      }, {
+        "order" : 3,
+        "elements" : [ "30" ],
+        "relationships" : [ "36" ]
+      }, {
+        "order" : 4,
+        "elements" : [ "9" ],
+        "relationships" : [ "38" ]
+      }, {
+        "order" : 5,
+        "elements" : [ "15" ],
+        "relationships" : [ "40" ]
+      }, {
+        "order" : 6,
+        "elements" : [ "20" ],
+        "relationships" : [ "42" ]
+      }, {
+        "order" : 7,
+        "elements" : [ "25" ],
+        "relationships" : [ "44" ]
+      } ],
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "33",
+        "x" : 1955,
+        "y" : 1067
+      }, {
+        "id" : "24",
+        "x" : 3560,
+        "y" : 2062
+      }, {
+        "id" : "14",
+        "x" : 1965,
+        "y" : 2062
+      }, {
+        "id" : "25",
+        "x" : 4385,
+        "y" : 1477
+      }, {
+        "id" : "15",
+        "x" : 2745,
+        "y" : 1492
+      }, {
+        "id" : "29",
+        "x" : 4385,
+        "y" : 2052
+      }, {
+        "id" : "19",
+        "x" : 2735,
+        "y" : 2067
+      }, {
+        "id" : "1",
+        "x" : 105,
+        "y" : 1202
+      }, {
+        "id" : "4",
+        "x" : 1140,
+        "y" : 1500
+      }, {
+        "id" : "8",
+        "x" : 1135,
+        "y" : 2067
+      }, {
+        "id" : "9",
+        "x" : 1965,
+        "y" : 1495
+      }, {
+        "id" : "30",
+        "x" : 1140,
+        "y" : 1067
+      }, {
+        "id" : "20",
+        "x" : 3565,
+        "y" : 1482
+      } ],
+      "relationships" : [ {
+        "id" : "40"
+      }, {
+        "id" : "41"
+      }, {
+        "id" : "42"
+      }, {
+        "id" : "43"
+      }, {
+        "id" : "37"
+      }, {
+        "id" : "36"
+      }, {
+        "id" : "35"
+      }, {
+        "id" : "44"
+      }, {
+        "id" : "45"
+      }, {
+        "id" : "46"
+      }, {
+        "id" : "38",
+        "vertices" : [ {
+          "x" : 1785,
+          "y" : 1637
+        } ]
+      }, {
+        "id" : "39"
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "Component_Order_Processor",
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 3508,
+        "height" : 2480
+      },
+      "containerId" : "9",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 900,
+        "y" : 90
+      }, {
+        "id" : "12",
+        "x" : 890,
+        "y" : 580
+      }, {
+        "id" : "13",
+        "x" : 1725,
+        "y" : 585
+      }, {
+        "id" : "3",
+        "x" : 205,
+        "y" : 1305
+      }, {
+        "id" : "14",
+        "x" : 1715,
+        "y" : 1315
+      }, {
+        "id" : "10",
+        "x" : 210,
+        "y" : 85
+      } ],
+      "relationships" : [ {
+        "id" : "53"
+      }, {
+        "id" : "55"
+      }, {
+        "id" : "56"
+      }, {
+        "id" : "57"
+      }, {
+        "id" : "58"
+      }, {
+        "id" : "59"
+      } ]
+    }, {
+      "key" : "Component_Stock",
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2058,
+        "height" : 2054
+      },
+      "containerId" : "20",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "22",
+        "x" : 1325,
+        "y" : 520
+      }, {
+        "id" : "23",
+        "x" : 200,
+        "y" : 1060
+      }, {
+        "id" : "24",
+        "x" : 190,
+        "y" : 1595
+      }, {
+        "id" : "3",
+        "x" : 740,
+        "y" : 30
+      }, {
+        "id" : "21",
+        "x" : 205,
+        "y" : 520
+      } ],
+      "relationships" : [ {
+        "id" : "70"
+      }, {
+        "id" : "71"
+      }, {
+        "id" : "66"
+      }, {
+        "id" : "69"
+      }, {
+        "id" : "68"
+      } ]
+    }, {
+      "key" : "Component_Product_Viewer",
+      "paperSize" : "A4_Portrait",
+      "dimensions" : {
+        "width" : 1108,
+        "height" : 2616
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "30",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "33",
+        "x" : 329,
+        "y" : 2108
+      }, {
+        "id" : "1",
+        "x" : 354,
+        "y" : 208
+      }, {
+        "id" : "31",
+        "x" : 329,
+        "y" : 908
+      }, {
+        "id" : "32",
+        "x" : 329,
+        "y" : 1508
+      } ],
+      "relationships" : [ {
+        "id" : "80"
+      }, {
+        "id" : "78"
+      }, {
+        "id" : "79"
+      } ]
+    }, {
+      "key" : "Component_Logistic",
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2058,
+        "height" : 2054
+      },
+      "containerId" : "25",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "3",
+        "x" : 784,
+        "y" : 122
+      }, {
+        "id" : "26",
+        "x" : 269,
+        "y" : 622
+      }, {
+        "id" : "27",
+        "x" : 1349,
+        "y" : 627
+      }, {
+        "id" : "28",
+        "x" : 259,
+        "y" : 1097
+      }, {
+        "id" : "29",
+        "x" : 254,
+        "y" : 1632
+      } ],
+      "relationships" : [ {
+        "id" : "72"
+      }, {
+        "id" : "74"
+      }, {
+        "id" : "76"
+      }, {
+        "id" : "75"
+      }, {
+        "id" : "77"
+      } ]
+    }, {
+      "key" : "Component_Order_Receiver",
+      "paperSize" : "A4_Portrait",
+      "dimensions" : {
+        "width" : 1858,
+        "height" : 2616
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "4",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 729,
+        "y" : 208
+      }, {
+        "id" : "3",
+        "x" : 329,
+        "y" : 2108
+      }, {
+        "id" : "5",
+        "x" : 704,
+        "y" : 908
+      }, {
+        "id" : "6",
+        "x" : 329,
+        "y" : 1508
+      }, {
+        "id" : "7",
+        "x" : 1079,
+        "y" : 1508
+      }, {
+        "id" : "8",
+        "x" : 1079,
+        "y" : 2108
+      } ],
+      "relationships" : [ {
+        "id" : "51"
+      }, {
+        "id" : "52"
+      }, {
+        "id" : "47"
+      }, {
+        "id" : "48"
+      }, {
+        "id" : "49"
+      } ]
+    }, {
+      "key" : "Component_Payments",
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2058,
+        "height" : 2054
+      },
+      "containerId" : "15",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "3",
+        "x" : 811,
+        "y" : 85
+      }, {
+        "id" : "16",
+        "x" : 386,
+        "y" : 628
+      }, {
+        "id" : "17",
+        "x" : 1236,
+        "y" : 638
+      }, {
+        "id" : "18",
+        "x" : 371,
+        "y" : 1133
+      }, {
+        "id" : "19",
+        "x" : 366,
+        "y" : 1668
+      } ],
+      "relationships" : [ {
+        "id" : "60"
+      }, {
+        "id" : "63"
+      }, {
+        "id" : "62"
+      }, {
+        "id" : "65"
+      }, {
+        "id" : "64"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : { },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
+      "terminology" : { },
+      "lastSavedView" : "Component_Stock"
+    }
+  }
+}
